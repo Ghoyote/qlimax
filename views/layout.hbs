@@ -27,14 +27,17 @@
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 		<![endif]-->
-	
+		{{#if create}}
+		<script src='//cdn.tinymce.com/4/tinymce.min.js'></script>
+		{{else}}
+		{{/if}}
 	</head>
 	
 	<body>
 		
 		
 		
-		{{#if blog}}{{else}}
+		{{#if noside}}{{else}}
 		<!-- Navigation -->
 		<a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
 		<nav id="sidebar-wrapper">

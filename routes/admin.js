@@ -5,8 +5,7 @@ var router = express.Router();
 router.get('/', function (req, res, next) {
 	res.render('blog', {
 		title: process.env.TITLE_QLIMAX,
-		noside: true,
-		create: true
+		noside: true
 	});
 });
 
