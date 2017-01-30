@@ -330,7 +330,7 @@ label textarea {
 	padding: 5px 20px;
 	text-align: center;
 	transition: all 0.3s;
-	width: 200px;
+	width: 80%;
 }
 label textarea:focus {
 	max-width: 100%;
