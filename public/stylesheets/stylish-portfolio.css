@@ -224,6 +224,178 @@ hr.small {
 .call-to-action .btn {
     margin: 10px;
 }
+
+/* Contact Us Section */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #333;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+.head-modal {
+	font-size:1.2em;
+	text-align: left;
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* Add Animation */
+@-webkit-keyframes animatetop {
+	from {top: -300px; opacity: 0}
+	to {top: 0; opacity: 1}
+}
+
+@keyframes animatetop {
+	from {top: -300px; opacity: 0}
+	to {top: 0; opacity: 1}
+}
+
+form {
+	text-align: center;
+}
+
+label {
+	display: block;
+	letter-spacing: 4px;
+	padding: 5px 30px;
+	text-align: center;
+}
+label .label-text {
+	color: #9B9B9B;
+	cursor: text;
+	font-size: 20px;
+	line-height: 20px;
+	text-transform: uppercase;
+	-moz-transform: translateY(-36px);
+	-ms-transform: translateY(-36px);
+	-webkit-transform: translateY(-36px);
+	transform: translateY(-36px);
+	transition: all 0.3s;
+}
+
+label .label-textarea{
+	-moz-transform: translateY(-54px);
+	-ms-transform: translateY(-54px);
+	-webkit-transform: translateY(-54px);
+	transform: translateY(-54px);
+	transition: all 0.3s;
+}
+
+label input {
+	background-color: transparent;
+	border: 0;
+	border-bottom: 2px solid #4A4A4A;
+	color: white;
+	font-size: 30px;
+	letter-spacing: -1px;
+	outline: 0;
+	padding: 5px 20px;
+	text-align: center;
+	transition: all 0.3s;
+	width: 200px;
+}
+label textarea {
+	font-weight:200;
+	/*background-color: transparent;*/
+	border: 0;
+	border-bottom: 2px solid #4A4A4A;
+	color: black;
+	font-size: 30px;
+	letter-spacing: -1px;
+	padding: 5px 20px;
+	text-align: center;
+	transition: all 0.3s;
+	width: 200px;
+}
+label textarea:focus {
+	max-width: 100%;
+	width: 400px;
+}
+label input:focus {
+	max-width: 100%;
+	width: 400px;
+}
+label input:focus + .label-text {
+	color: #F0F0F0;
+	font-size: 13px;
+	-moz-transform: translateY(-74px);
+	-ms-transform: translateY(-74px);
+	-webkit-transform: translateY(-74px);
+	transform: translateY(-74px);
+}
+label textarea:focus + .label-text {
+	color: #F0F0F0;
+	font-size: 13px;
+	-moz-transform: translateY(-130px);
+	-ms-transform: translateY(-130px);
+	-webkit-transform: translateY(-130px);
+	transform: translateY(-130px);
+}
+label input:valid + .label-text {
+	color:green;
+	font-size: 13px;
+	-moz-transform: translateY(-74px);
+	-ms-transform: translateY(-74px);
+	-webkit-transform: translateY(-74px);
+	transform: translateY(-74px);
+}
+
+label input:focus:invalid + .label-text {
+	color:red;
+	font-size: 13px;
+	-moz-transform: translateY(-74px);
+	-ms-transform: translateY(-74px);
+	-webkit-transform: translateY(-74px);
+	transform: translateY(-74px);
+}
+
+.contact-button {
+	background-color: #333333;
+	border: 2px solid white;
+	border-radius: 27px;
+	color: white;
+	cursor: pointer;
+	font-size: 20px;
+	margin-top: 20px;
+	padding: 15px 30px;
+	text-transform: uppercase;
+	transition: all 200ms;
+}
+contact-button:hover, contact-button:focus {
+	background-color: white;
+	color: #333333;
+	outline: 0;
+}
+
+
+
+
+
 /* Map */
 
 .map {
