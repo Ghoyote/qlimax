@@ -386,7 +386,7 @@ label input:focus:invalid + .label-text {
 	text-transform: uppercase;
 	transition: all 200ms;
 }
-contact-button:hover, contact-button:focus {
+.contact-button:hover, .contact-button:focus {
 	background-color: white;
 	color: #333333;
 	outline: 0;
@@ -424,3 +424,5 @@ footer {
   bottom: 5px;
   right: 5px;
 }
+
+#tweet{position:fixed;bottom:10px;left:50px;}
