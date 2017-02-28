@@ -406,6 +406,7 @@ label input:focus:invalid + .label-text {
     .map {
         height: 75%;
     }
+	.partners-zone{border:none; margin :10px;}
 }
 @media only screen and (max-width:500px) {
 	.callout{
@@ -413,6 +414,7 @@ label input:focus:invalid + .label-text {
 		object-fit:cover;
 		background-size:cover;
 	}
+	.partners-zone{border:none; margin :10px;}
 }
 
 .map iframe {
@@ -436,3 +438,4 @@ footer {
 
 #tweet{position:fixed;bottom:10px;left:50px;}
 /*.text-primary{color:#337ab7}*/
+
