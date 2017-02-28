@@ -25,7 +25,6 @@ router.post('/contact', function (req, res, next) {
 		priority: 'high',
 		html: "<blockquote>"+req.body.message+"<hr><br><small>Best<br>"+req.body.name+"</small></blockquote>"
 	};
-	mailOptions.to = 'barnabas@elite-education.org';
 	transporter.sendMail(mailOptions, function (error, info) {
 		if ( error ) {
 			res.status(500);
