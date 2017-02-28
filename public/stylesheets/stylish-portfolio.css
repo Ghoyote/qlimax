@@ -418,8 +418,9 @@ label input:focus:invalid + .label-text {
 .map iframe {
     pointer-events: none;
 }
-.partners-zone{box-shadow:3px 3px 3px 3px #ccc}
+.partners-zone{border: 2px solid black;box-shadow:3px 3px 3px 3px #ccc;background-color:transparent}
 .partners{padding:10px 0;}
+.partners-head{ width: 50vw;margin-left:auto; margin-right:auto}
 /* Footer */
 
 footer {
