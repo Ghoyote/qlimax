@@ -1,0 +1,16 @@
+CACHE MANIFEST
+
+/javascripts/bootstrap.min.js
+/javascripts/contact.js
+/javascripts/jquery.js
+/javascripts/maps.js
+/stylesheets/bootstrap.min.css
+/font-awesome/css/font-awesome.min.css
+https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic
+https://cdn.tinymce.com/4/tinymce.min.js
+
+NETWORK:
+*
+CACHE:
+/images/tailor_made.JPG
+/images/tailor_made_500px.JPG
