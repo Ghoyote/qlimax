@@ -4,14 +4,15 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-// var compression = require('compression');
+var compression = require('compression');
 
 var index = require('./routes/index');
 var blog = require('./routes/blog');
 var admin = require('./routes/admin');
 
 var app = express();
-// app.use(compression());
+
+app.use(compression());
 
 app.locals.pageResource = {
 	email: process.env.EMAIL_QLIMAX,
