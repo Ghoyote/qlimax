@@ -185,7 +185,7 @@ hr.small {
     width: 100%;
     height: 400px;
     color: #fff;
-    background: url(../images/callout.jpg) no-repeat center center scroll;
+	background: url(../images/tailor_made.JPG) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -407,6 +407,13 @@ label input:focus:invalid + .label-text {
         height: 75%;
     }
 }
+@media only screen and (max-width:500px) {
+	.callout{
+		background: url(../images/tailor_made_500px.JPG) no-repeat center center scroll;
+		object-fit:cover;
+		background-size:cover;
+	}
+}
 
 .map iframe {
     pointer-events: none;
@@ -426,3 +433,4 @@ footer {
 }
 
 #tweet{position:fixed;bottom:10px;left:50px;}
+/*.text-primary{color:#337ab7}*/
