@@ -4,13 +4,14 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var compression = require('compression');
 
 var index = require('./routes/index');
-var users = require('./routes/users');
 var blog = require('./routes/blog');
 var admin = require('./routes/admin');
 
 var app = express();
+app.use(compression());
 
 app.locals.pageResource = {
 	email: process.env.EMAIL_QLIMAX,
@@ -30,7 +31,6 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
-// app.use('/users', users);
 // app.use('/blog', blog);
 // app.use('/admin',admin);
 
