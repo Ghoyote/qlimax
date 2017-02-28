@@ -418,7 +418,8 @@ label input:focus:invalid + .label-text {
 .map iframe {
     pointer-events: none;
 }
-
+.partners-zone{box-shadow:3px 3px 3px 3px #ccc}
+.partners{padding:10px 0;}
 /* Footer */
 
 footer {
