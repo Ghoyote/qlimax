@@ -236,13 +236,14 @@ hr.small {
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
 }
 
 /* Modal Content/Box */
 .modal-content {
-    background-color: #333;
-    margin: 15% auto; /* 15% from the top and centered */
+    /*background-color: #333;*/
+	background-color:rgba(0,0,0,0.5);
+    margin: 2% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
@@ -321,10 +322,10 @@ label input {
 }
 label textarea {
 	font-weight:200;
-	/*background-color: transparent;*/
+	background-color: transparent;
 	border: 0;
-	border-bottom: 2px solid #4A4A4A;
-	color: black;
+	border: 2px solid #4A4A4A;
+	color: white;
 	font-size: 30px;
 	letter-spacing: -1px;
 	padding: 5px 20px;
@@ -335,6 +336,9 @@ label textarea {
 label textarea:focus {
 	max-width: 100%;
 	width: 400px;
+}
+label textarea:focus + .label-text{
+	color:transparent;
 }
 label input:focus {
 	max-width: 100%;
@@ -364,7 +368,9 @@ label input:valid + .label-text {
 	-webkit-transform: translateY(-74px);
 	transform: translateY(-74px);
 }
-
+label textarea:valid + .label-text {
+	color:rgba(255,255,255,0.1);
+}
 label input:focus:invalid + .label-text {
 	color:red;
 	font-size: 13px;
