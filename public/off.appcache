@@ -1,6 +1,7 @@
 CACHE MANIFEST
 
-# cached
+# cached app files
+
 /
 /javascripts/bootstrap.min.js
 /javascripts/contact.js
