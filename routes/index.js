@@ -28,11 +28,18 @@ router.post('/contact', function (req, res, next) {
 	transporter.sendMail(mailOptions, function (error, info) {
 		if ( error ) {
 			res.status(500);
-			res.send('Error processing your request');
+			res.json({
+				status:500,
+				message: "Error processing your request. Please try again later."
+			});
 			return console.log(error);
 		}else {
 			console.log('Message sent\nid: %s\nresponse: %s', info.messageId, info.response);
-			res.send('Message sent!<br> id: '+info.messageId+'<br> response: '+ info.response);
+			res.json({
+				status:200,
+				message: "Message sent!"
+			});
+			// res.send('Message sent!<br> id: '+info.messageId+'<br> response: '+ info.response);
 		}
 	});
 });
