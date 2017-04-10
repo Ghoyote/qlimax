@@ -1,6 +1,6 @@
 CACHE MANIFEST
 
-# cached residuals
+# cached residual
 
 /
 /javascripts/bootstrap.min.js
@@ -16,6 +16,7 @@ https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,40
 /images/cameras.gif
 /images/insights.JPG
 /javascripts/app/angular.min.js
+http://platform.twitter.com/widgets.js
 
 NETWORK:
 *
