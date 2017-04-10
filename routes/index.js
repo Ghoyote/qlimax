@@ -9,8 +9,6 @@ var transporter = nodemailer.createTransport({
 		pass: process.env.POSTMASTER_KEY
 	}
 });
-
-
 /* GET home page. */
 router.get('/', function (req, res, next) {
 	res.render('index', { title: process.env.TITLE_QLIMAX });
@@ -36,7 +34,7 @@ router.post('/contact', function (req, res, next) {
 		}else {
 			console.log('Message sent\nid: %s\nresponse: %s', info.messageId, info.response);
 			res.json({
-				status:200,
+				status:250,
 				message: "Message sent!"
 			});
 			// res.send('Message sent!<br> id: '+info.messageId+'<br> response: '+ info.response);

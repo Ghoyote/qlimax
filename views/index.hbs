@@ -162,13 +162,13 @@
 					<div class="modal-content">
 						<span class="close" style="color: #fff; opacity:1;">&times;</span>
 						<h4 class="head-modal">Contact Us</h4>
-						<p ng-hide="form.response.status == null" class="alert" ng-class="{'alert-danger':form.response.status == 500, 'alert-success':form.response.status == 200}" style="width:96%; text-align: center;">{[{form.response.message}]}</span>
+						<p ng-hide="form.response.status == null" class="alert" ng-class="{'alert-danger':form.response.status == 500, 'alert-success':form.response.status == 250}" style="width:96%; text-align: center;">{[{form.response.message}]}</span>
 							<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
 						</p>
 						<form method="post" class="form-group contact-form" name="ContactForm" ng-model="ContactForm" ng-submit="form.sendMail()">
 							<label for="name"><input id="name" name="name" type="text" class="form-group" ng-model="form.data.name" required autofocus><div class="label-text">Name</div></label>
 							<label for="email"><input id="email" name="email" type="email" class="form-group" ng-model="form.data.email" required><div class="label-text">Email</div></label>
-							<label for="message"><textarea id="message" name="message" class="form-group text-left" rows="3" ng-model="form.data.message" required></textarea><div class="label-text label-textarea">Message</div></label>
+							<label for="message"><textarea id="message" name="message" minlength="20" class="form-group text-left" rows="3" ng-model="form.data.message" required></textarea><div class="label-text label-textarea">Message</div></label>
 							<button class="contact-button" type="submit">Submit</button>
 						</form>
 					</div>
