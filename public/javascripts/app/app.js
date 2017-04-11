@@ -3,9 +3,10 @@
 		$interpolateProvider.startSymbol('{[{').endSymbol('}]}');
 	});
 	
-	app.controller('ContactController', ['$http', function ($http)
+	app.controller('ContactController', ['$scope','$http', function ($scope,$http)
 	 {
 	    var form = this;
+	    $scope.loading = true;
 	    form.data = {};
 		form.response = {};
 		 this.sendMail = function () {
@@ -17,6 +18,7 @@
 				 form.response = res;
 			 });
 			 form.data = {};
+			 $scope.loading = false;
 		 };
 	 }]);
 	

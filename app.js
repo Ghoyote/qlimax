@@ -16,7 +16,8 @@ app.use(compression());
 
 app.locals.pageResource = {
 	email: process.env.EMAIL_QLIMAX,
-	year:  new Date().getFullYear()
+	year:  new Date().getFullYear(),
+	number: '+233203454450'
 };
 
 // view engine setup
