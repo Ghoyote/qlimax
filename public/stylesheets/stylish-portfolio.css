@@ -452,3 +452,4 @@ footer {
 */
 .bg-primary{background-color:#7c0300}
 .text-primary{color:#7c0300}
+a.text-primary:focus,a.text-primary:hover{color:rgba(201,4,0,0.95)}
