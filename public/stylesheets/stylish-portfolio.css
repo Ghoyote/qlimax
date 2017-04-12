@@ -401,7 +401,15 @@ label input:focus:invalid + .label-text {
 	outline: 0;
 }
 
-
+.bg-primary{background-color:#7c0300}
+.text-primary{color:#7c0300}
+a.text-primary:focus,a.text-primary:hover{color:rgba(201,4,0,0.95)}
+blockquote.the-zen{
+	height:55vh;
+	font-size:1em;
+	vertical-align:middle;
+	letter-spacing:1.4px;
+}
 
 
 
@@ -411,11 +419,16 @@ label input:focus:invalid + .label-text {
     height: 500px;
 }
 
-@media(max-width:768px) {
+@media only screen and (max-width:768px) {
     .map {
         height: 75%;
     }
 	.partners-zone{border:none; margin :10px;}
+	blockquote.the-zen{
+		height:100%;
+		font-size:1em;
+		vertical-align:middle;
+	}
 }
 @media only screen and (max-width:500px) {
 	.callout{
@@ -424,6 +437,12 @@ label input:focus:invalid + .label-text {
 		background-size:cover;
 	}
 	.partners-zone{border:none; margin :10px;}
+	blockquote.the-zen{
+		height:100%;
+		font-size:0.7em;
+		vertical-align:middle;
+		/*letter-spacing:1px;*/
+	}
 }
 
 .map iframe {
@@ -450,6 +469,4 @@ footer {
 .text-primary{color:rgba(201,4,0,0.69)}
 .bg-primary{background-color:rgba(201,4,0,0.69)}
 */
-.bg-primary{background-color:#7c0300}
-.text-primary{color:#7c0300}
-a.text-primary:focus,a.text-primary:hover{color:rgba(201,4,0,0.95)}
+
