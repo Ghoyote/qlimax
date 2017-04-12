@@ -8,14 +8,14 @@ CACHE MANIFEST
 /javascripts/maps.js
 /stylesheets/bootstrap.min.css
 /font-awesome/css/font-awesome.min.css
-#https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic
+https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic
 /favicon.ico
 /images/tailor_made.JPG
 /images/tailor_made_500px.JPG
 /images/cameras.gif
 /images/insights.JPG
 /javascripts/app/angular.min.js
-#http://platform.twitter.com/widgets.js
+http://platform.twitter.com/widgets.js
 
 NETWORK:
 *
