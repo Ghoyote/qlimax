@@ -1,7 +1,7 @@
 CACHE MANIFEST
 
 # cache April 12,  2017.
-/
+
 /javascripts/bootstrap.min.js
 /javascripts/contact.js
 /javascripts/jquery.js
@@ -16,6 +16,7 @@ https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,40
 /images/insights.JPG
 /javascripts/app/angular.min.js
 http://platform.twitter.com/widgets.js
+https://maps.googleapis.com/maps/api/js?key=AIzaSyCjQER4RxwKOcGlqZBr_WcHJeETukWsNfc&callback=initMap
 
 NETWORK:
 *
