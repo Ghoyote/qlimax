@@ -1,12 +1,13 @@
 CACHE MANIFEST
 
-# cache April 12,  2017 11:50am
+# cache April 13,  2017 08:20am
 
 /
 /javascripts/bootstrap.min.js
 /javascripts/contact.js
 /javascripts/jquery.js
 /javascripts/maps.js
+/stylesheets/stylish-portfolio.css
 /stylesheets/bootstrap.min.css
 /font-awesome/css/font-awesome.min.css
 https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic
