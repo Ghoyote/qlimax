@@ -162,7 +162,7 @@
 					<div class="modal-content">
 						<span class="close" style="color: #fff; opacity:1;">&times;</span>
 						<h4 class="head-modal">Contact Us</h4>
-						<p ng-hide="form.response.status == null" class="alert" ng-class="{'alert-danger':form.response.status == 500, 'alert-success':form.response.status == 250}" style="width:96%; text-align: center;">{[{form.response.message}]}</span>
+						<p ng-hide="form.response.status == null" class="alert" ng-class="{'alert-danger':form.response.status == 500, 'alert-success':form.response.status == 250}" style="width:96%; text-align: center;">{[{form.response.message}]}
 							<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
 						</p>
 						<form method="post" class="form-group contact-form" name="ContactForm" ng-model="ContactForm" ng-submit="form.sendMail()">
