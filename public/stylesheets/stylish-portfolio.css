@@ -265,6 +265,16 @@ hr.small {
     text-decoration: none;
     cursor: pointer;
 }
+#pricing-modal .modal-content{
+    background-color: rgb(255,255,255);
+    color: black;
+}
+.cloze-p{
+    color: black;
+}
+.cloze-p:hover,.cloze-p:focus{
+    color: #c7254e;
+}
 /* Add Animation */
 @-webkit-keyframes animatetop {
 	from {top: -300px; opacity: 0}

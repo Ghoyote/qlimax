@@ -1,24 +1,24 @@
 CACHE MANIFEST
 
-# cache May 25,  2017 18:33
+# cache May 25,  2017 20:07
 
 /
 /javascripts/bootstrap.min.js
 /javascripts/contact.js
 /javascripts/jquery.js
 /javascripts/maps.js
-/stylesheets/stylish-portfolio.css
+# /stylesheets/stylish-portfolio.css
 /stylesheets/bootstrap.min.css
 /font-awesome/css/font-awesome.min.css
-https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic
+# https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic
 /favicon.ico
 /images/tailor_made.JPG
 /images/tailor_made_500px.JPG
 /images/cameras.gif
 /images/insights.JPG
 /javascripts/app/angular.min.js
-http://platform.twitter.com/widgets.js
-https://maps.googleapis.com/maps/api/js?key=AIzaSyCjQER4RxwKOcGlqZBr_WcHJeETukWsNfc&callback=initMap
+# http://platform.twitter.com/widgets.js
+# https://maps.googleapis.com/maps/api/js?key=AIzaSyCjQER4RxwKOcGlqZBr_WcHJeETukWsNfc&callback=initMap
 
 NETWORK:
 *
