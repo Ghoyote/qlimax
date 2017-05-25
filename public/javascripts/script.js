@@ -59,12 +59,11 @@ $(document).scroll(function() {
 
 // Scroll Reveal
 window.sr = ScrollReveal({reset:true});
-sr.reveal('.the-zen .lead',{duration:2000,delay:300},200);
+sr.reveal('.stand-out',{duration:1000,delay:300},50);
+sr.reveal('.callout .text-vertical-center',{duration:1000});
 sr.reveal('.bridge',{duration:5000});
-sr.reveal('.motto',{duration:5000});
-
-
-
+sr.reveal('.service-item',{duration:1000},250);
+sr.reveal('.call-to-action .btn',{duration:1000},500);
 
 
 var appCache = window.applicationCache;

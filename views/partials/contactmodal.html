@@ -4,6 +4,7 @@
     <div class="modal-content">
         <span class="close cloze" style="color: #fff; opacity:1;">&times;</span>
         <h4 class="head-modal">Contact Us</h4>
+        <hr class="small text-left">
         <p ng-hide="form.response.status == null" class="alert" ng-class="{'alert-danger':form.response.status == 500, 'alert-success':form.response.status == 250}" style="width:96%; text-align: center;">{[{form.response.message}]}
             <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
         </p>
