@@ -5,7 +5,7 @@ var modal = document.getElementById('contact-modal');
 var btn = document.getElementById("contact-toggle");
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+var span = document.getElementsByClassName("cloze")[0];
 
 // When the user clicks on the button, open the modal
 btn.onclick = function() {

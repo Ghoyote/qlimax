@@ -54,7 +54,7 @@
 							<h4>
 								<strong>Videography</strong>
 							</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+							<p>Life is a continuous stream of events. Like poetry, getting the right moments and recalling them as they are requires skill. That is where {{{title}}} comes in. We tell your story as it happened, as it is.</p>
 							<a href="#" class="btn btn-light">Learn More</a>
 						</div>
 					</div>
@@ -152,15 +152,16 @@
 		<div class="row">
 			<div class="col-lg-12 text-center">
 				<h3>Flexible Pricing</h3>
-				<a href="#" class="btn btn-lg btn-dark">Learn More</a>
+				<a href="#" class="btn btn-lg btn-dark" data-toggle="modal"
+                   data-target="#pricing-all">Learn More</a>
 
 				<!--Trigger/Open Contact Modal-->
 				<a href="#contact-toggle"  id="contact-toggle" class="btn btn-lg btn-light toggle">Contact Us!</a>
-				<!-- The Modal -->
+				 <!--The Modal-->
 				<div id="contact-modal" class="modal" ng-controller="ContactController as form">
 					<!-- Modal content -->
 					<div class="modal-content">
-						<span class="close" style="color: #fff; opacity:1;">&times;</span>
+						<span class="close cloze" style="color: #fff; opacity:1;">&times;</span>
 						<h4 class="head-modal">Contact Us</h4>
 						<p ng-hide="form.response.status == null" class="alert" ng-class="{'alert-danger':form.response.status == 500, 'alert-success':form.response.status == 250}" style="width:96%; text-align: center;">{[{form.response.message}]}
 							<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
@@ -185,3 +186,25 @@
 <section class="map">
 	<div id="map"></div>
 </section>
+
+
+
+<div id="pricing-all" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Pricing</h4>
+            </div>
+            <div class="modal-body">
+                <p> foo</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal" data-target="#pricing-all">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
