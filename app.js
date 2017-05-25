@@ -11,6 +11,13 @@ var blog = require('./routes/blog');
 var admin = require('./routes/admin');
 
 var app = express();
+var hbs = require('hbs');
+
+hbs.registerHelper('thisyear', function () {
+	return new Date().getFullYear();
+});
+hbs.registerPartials('./views/partials');
+
 
 app.use(compression());
 
