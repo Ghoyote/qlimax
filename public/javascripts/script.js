@@ -57,6 +57,16 @@ $(document).scroll(function() {
 });
 
 
+// Scroll Reveal
+window.sr = ScrollReveal({reset:true});
+sr.reveal('.the-zen .lead',{duration:2000,delay:300},200);
+sr.reveal('.bridge',{duration:5000});
+sr.reveal('.motto',{duration:5000});
+
+
+
+
+
 var appCache = window.applicationCache;
 
 appCache.update();
