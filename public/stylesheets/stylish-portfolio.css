@@ -530,24 +530,28 @@ footer {
     padding: 20px;
     text-align: center;
 }
+.price li a{
+    color: white;
+}
 
 .price .grey {
     background-color: #eee;
     font-size: 20px;
 }
 
-.button {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 10px 25px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 18px;
-}
+
 
 @media only screen and (max-width: 600px) {
     .columns {
-        width: 100%;
+        font-size: 30%;
+    }
+    .price .pricing-header {
+        font-size: 12px;
+    }
+    .price li{
+        font-size:12px;
+    }
+    .price .grey {
+        font-size: 10px;
     }
 }
