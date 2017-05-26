@@ -1,6 +1,6 @@
 CACHE MANIFEST
 
-# cache May 26,  2017 00:08
+# cache May 26,  2017 00:10
 
 /
 /javascripts/bootstrap.min.js
@@ -10,7 +10,7 @@ CACHE MANIFEST
 # /stylesheets/stylish-portfolio.css
 /stylesheets/bootstrap.min.css
 /font-awesome/css/font-awesome.min.css
-# https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic
+https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic
 /favicon.ico
 /images/tailor_made.JPG
 /images/tailor_made_500px.JPG
