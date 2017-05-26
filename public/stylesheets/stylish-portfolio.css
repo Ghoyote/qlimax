@@ -426,11 +426,22 @@ blockquote.the-zen{
     height: 500px;
 }
 
+@media screen and (max-width:1024px) {
+    .map {
+        height: 75%;
+    }
+    .partners-zone{width: 60%}
+    blockquote.the-zen{
+        height:100%;
+        font-size:1em;
+        vertical-align:middle;
+    }
+}
 @media only screen and (max-width:768px) {
     .map {
         height: 75%;
     }
-	.partners-zone{border:none; margin :10px;}
+	.partners-zone{border:none; margin :10px;width:90%}
 	blockquote.the-zen{
 		height:100%;
 		font-size:1em;
@@ -443,7 +454,7 @@ blockquote.the-zen{
 		object-fit:cover;
 		background-size:cover;
 	}
-	.partners-zone{border:none; margin :10px;}
+	.partners-zone{border:none; margin :10px;width:90%}
 	blockquote.the-zen{
 		height:100%;
 		font-size:0.7em;
@@ -455,7 +466,7 @@ blockquote.the-zen{
 .map iframe {
     pointer-events: none;
 }
-.partners-zone{border: 2px solid black;box-shadow:3px 3px 3px 3px #ccc;background-color:transparent}
+.partners-zone{border: 2px solid black;box-shadow:3px 3px 3px 3px #ccc;background-color:transparent;margin: 0 auto; height: 40vh;}
 .partners{padding:10px 0;}
 .partners-head{ width: 50vw;margin-left:auto; margin-right:auto}
 /* Footer */

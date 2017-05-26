@@ -65,7 +65,7 @@ sr.reveal('.bridge',{duration:5000});
 sr.reveal('.service-item',{duration:1000},250);
 sr.reveal('.call-to-action .btn',{duration:1000},500);
 sr.reveal('.header',{duration:1000});
-sr.reveal('.soc-but',{duration:100},300);
+sr.reveal('.soc-but',{duration:1000},300);
 
 var appCache = window.applicationCache;
 
