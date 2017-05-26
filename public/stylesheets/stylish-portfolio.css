@@ -482,6 +482,7 @@ footer {
 #tweet{position:fixed;bottom:10px;left:50px;}
 
 .carousel-control.left,.carousel-control.right  {
+    color: #fff6f4;
     background-image: none;
 }
 .carousel-indicators li {
