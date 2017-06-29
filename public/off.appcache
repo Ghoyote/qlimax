@@ -1,6 +1,6 @@
 CACHE MANIFEST
 
-# cache May 26,  2017 06:42
+# cache June 29,  2017 08:56
 # Last update for today I suppose
 
 /javascripts/bootstrap.min.js
@@ -8,6 +8,7 @@ CACHE MANIFEST
 /javascripts/jquery.js
 /javascripts/maps.js
 /stylesheets/bootstrap.min.css
+/stylesheets/stylish-portfolio.css
 /font-awesome/css/font-awesome.min.css
 https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic
 /favicon.ico
