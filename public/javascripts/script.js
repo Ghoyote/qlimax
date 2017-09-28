@@ -66,6 +66,8 @@ sr.reveal('.call-to-action .btn',{duration:1000},500);
 sr.reveal('.header',{duration:1000});
 sr.reveal('.soc-but',{duration:1000},300);
 
+
+/*
 var appCache = window.applicationCache;
 
 appCache.update();
@@ -120,3 +122,4 @@ appCache.addEventListener('progress', handleCacheEvent, false);
 
 // Fired when the manifest resources have been newly redownloaded.
 appCache.addEventListener('updateready', handleCacheEvent, false);
+*/

@@ -439,6 +439,11 @@ blockquote.the-zen{
     .map {
         height: 75%;
     }
+    .callout{
+        background: url(../images/image1-1.jpeg) no-repeat center center scroll;
+        object-fit:cover;
+        background-size:cover;
+    }
 	.partners-zone{border:none; margin :0 auto;width:90%}
 	blockquote.the-zen{
 		height:100%;
@@ -448,7 +453,7 @@ blockquote.the-zen{
 }
 @media only screen and (max-width:500px) {
 	.callout{
-		background: url(../images/tailor_made_500px.JPG) no-repeat center center scroll;
+		background: url(../images/image1.jpeg) no-repeat center center scroll;
 		object-fit:cover;
 		background-size:cover;
 	}
